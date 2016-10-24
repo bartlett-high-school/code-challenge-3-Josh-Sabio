@@ -1,5 +1,10 @@
 /* Put your css here for your table and page styling */
-
+table {
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+}
 th {
   font-weight: bold;
 }
